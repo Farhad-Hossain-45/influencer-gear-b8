@@ -72,6 +72,20 @@ nav ul li a {
     border: none;
     color: white;
 }
+.logo-section{
+    padding: 100px 200px;
+}
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.8rem;
+}
+.logo-img{
+    width: 3rem;
+    height: 1.7rempx;
+}
+
+
 
 @media screen and (max-width:576px) {
     nav, nav ul, .banner-container{
@@ -98,6 +112,15 @@ nav ul li a {
         height: 100%;
         width: 100%;
     }
+    .logo-section{
+        padding: 1.2rem;
+        margin: 0 25%;
+        margin-top: 30px;
+    }
+    .logo-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    } 
 }
 @media screen and (min-width:576px) and (max-width:992px){
     nav{
@@ -107,5 +130,12 @@ nav ul li a {
     header{
         padding: 20px;
     }
-    
+    .banner-title{
+        font-size: 2rem;
+    }
+    .logo-section{
+        padding: 1.2rem;
+        margin:0 12.5%;
+        margin-top: 30px;
+    }
 }
