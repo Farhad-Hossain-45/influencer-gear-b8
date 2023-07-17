@@ -84,6 +84,30 @@ nav ul li a {
     width: 3rem;
     height: 1.7rempx;
 }
+.popular-conatainer{
+    padding: 50px 90px;
+}
+.popular-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+.item{
+    width: 320px;
+    height: 450px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+   /* display: grid;
+   grid-template-columns: repeat(3, 1fr); */
+
+}
+.popular-contant{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
 
 
 
@@ -114,13 +138,22 @@ nav ul li a {
     }
     .logo-section{
         padding: 1.2rem;
-        margin: 0 25%;
+        /* margin: 0 25%; */
         margin-top: 30px;
     }
     .logo-container{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        /* gap: 1.5rem; */
     } 
+    .popular-title{
+        margin-top: 2.3rem;
+    }
+    .popular-contant{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .popular-conatainer{
+        padding: 20px;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     nav{
